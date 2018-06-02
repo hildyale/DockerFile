@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  react:
+    image: hildyale/codebreaker-front:latest
+    ports:
+      - "3000:3000"
+  node:
+    image: hildyale/codebreaker-back:latest
+    ports:
+      - "5000:5000"
